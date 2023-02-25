@@ -6,6 +6,8 @@
   width: 770px;
   margin: 0 auto;
 }
+
+/* ----- Header ----- */
 .header{
   display: flex;
   justify-content: space-between;
@@ -36,4 +38,68 @@
 .menu-list a:hover{
   color: black;
   border-bottom: 2px solid #000;
+}
+
+/* ----- MainContent ----- */
+
+.main-content{
+  text-align: center;
+  margin-top: 45px;
+}
+
+.number{
+  font-size: 288px;
+}
+
+.buttons{
+  margin-top: 30px;
+  margin-bottom: 200px;
+}
+
+.button-plus{
+  background: #0FC50B;
+  border-radius: 100%;
+  border: 2px solid #0FC50B;
+  color: #fff;
+  font-size: 55px;
+  padding: 7px 22px;
+}
+.button-plus:hover{
+  color: #0FC50B;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button-refresh{
+  background: #E5E5E5;
+  border-radius: 100%;
+  border: 2px solid #E5E5E5;
+  padding: 17px 22px;
+}
+.button-refresh img{
+  width: 40px;
+}
+.button-refresh:hover{
+  cursor: pointer;
+}
+
+.button-minus{
+  background: #F74C4C;
+  border-radius: 100%;
+  border: 2px solid #F74C4C;
+  color: #fff;
+  font-size: 55px;
+  padding: 7px 29px;
+}
+.button-minus:hover{
+  color: #F74C4C;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.counter{
+  margin-right: 192px;
+}
+.counter:last-child{
+  margin-right: 0;
 }
