@@ -1,6 +1,6 @@
 function Number(){
     return(
-        <span>0</span>
+        <span className="number">0</span>
     )
 }
 
