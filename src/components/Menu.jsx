@@ -1,12 +1,10 @@
-import React from "react";
-
 function Menu(){
     return(
-        <nav>
-            <ul>
-                <li>Главная</li>
-                <li>О нас</li>
-                <li>Контакты</li>
+        <nav className="menu">
+            <ul className="menu-list">
+                <a href="#"><li>Главная</li></a>
+                <a href="#"><li>О нас</li></a>
+                <a href="#"><li>Контакты</li></a>
             </ul>
         </nav>
     )
