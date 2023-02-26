@@ -6,7 +6,7 @@ function Buttons({counter, SetCounter}){
     }
     function minus(){
         SetCounter(counter - 2)
-        if (counter===0){
+        if (counter - 2 <= 0){
             return SetCounter(0);
         }
     }
